@@ -1,0 +1,17 @@
+header nav ul li{
+    float: left;
+}
+nav{
+    background: #6200ff;
+    overflow: hidden;/*Propiedad que obliga a los elementos float contenidos a ser incluidos*/
+}
+header nav ul{
+    list-style: none;/* Quita las viñetas a los elementos de la lista*/
+}
+
+header nav ul li a{
+    padding: 10px 20px 10px;
+    display: block;/*especifica si un elemento es tratado como block or inline element*/
+    color: white;
+    text-decoration: none;/*se usa para establecer el formato de texto a subrayado*/
+}

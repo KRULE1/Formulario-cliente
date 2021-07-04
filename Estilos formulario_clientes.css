@@ -1,0 +1,19 @@
+body {
+    background-image: url(fondo\ formulario_cliente.jpg)
+}
+
+footer{
+    clear: left;/*especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido*/
+    height: 50px;
+    color: white;
+    text-align: center;/*permiten alinear el texto según los valores tradicionales: a la izquierda ( left ), a la derecha ( right ), centrado ( center ) y justificado ( justify ).*/
+    line-height: 3;/*establece la altura de una casilla remarcada por líneas. Comúnmente se usa para establecer la distancia entre líneas de texto.*/
+    background:#ff7600;     
+}
+
+label{
+    text-align: center;
+    color: rgb(248, 4, 4);
+    font-family: cursive;
+    
+}
